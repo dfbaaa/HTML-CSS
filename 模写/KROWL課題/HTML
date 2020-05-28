@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8">
+ <title>Data Mania</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="css/reset.css" type="text/css">
+ <link rel="stylesheet" href="css/style.css">
+ <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+  <div class="mainVisual_view">
+    <div class="container">
+      <div class="mainVisual_logo">
+        <img src="img/logo-datamania.png" alt="ロゴ">
+      </div>
+      <div class="message">
+        <h1>
+          <span>データマーケティングの</span>
+          <br>
+          <span>未来をつくる</span>
+          </h1>
+      </div>
+      <div class="circle">
+          <a href="#"><h3>今なら<br>初月無料</h3></a>
+      </div>
+    </div>
+  </div>
+  <header>
+    <div class="header_left">
+      <ul>
+        <li>
+          <a href="#"><h4>最新情報</h4></a>
+        </li>
+        <li>
+          <a href="#"><h4>サービスの特長</h4></a>
+        </li>
+        <li>
+          <a href="#"><h4>3つの強み</h4></a>
+        </li>
+        <li>
+          <a href="#"><h4>お客様の声</h4></a>
+        </li>
+      </ul>
+    </div>
+    <div class="header_right">
+      <a href="form"><h4>お問い合わせ</h4></a>
+    </div>
+  </header>
+  <main>
+    <section class="section news">
+      <div class="section_header">
+        <div class="section_title">
+          <h2>最新情報</h2>
+        </div>
+      </div>
+      <div class="news_list">
+        <ul>
+          <li>
+            <h4>2019.08.23</h4>
+            <h4>新料金プラン「Mania 5」をリリースしました</h4>
+          </li>
+          <li>
+            <h4>2019.08.08</h4>
+            <h4>Android OS版のアプリケーションにおける決済機能の不具合について</h4>
+          </li>
+          <li>
+            <h4>2019.07.14</h4>
+            <h4>関東テレビの情報番組「サックリ！」にData Mania代表の石渡が出演します</h4>
+          </li>
+        </ul>
+        <div class="all_news">
+          <a href="#"><h4>過去の情報を見る</h4></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section service">
+      <div class="section_header">
+        <div class="section_title">
+          <h2>サービスの特長</h2>
+        </div>
+      </div>
+      <div class="service_container">
+        <div class="section_container">
+          <div class="service_text">
+            <p>DataManiaはデータマーケティングの効率を最大化するために設計されています。<br>自動分析・レポート機能、ユーザー管理機能、通知機能、その他データマーケティングに必要不可欠な40の機能を、先進的で洗練されたインターフェースで利用することができます。<br>満を持してリリースされたバージョン2からは、忙しいマーケターのためにスマートフォンアプリ版もリリースされました。</p>
+          </div>
+          <div class="service_icon">
+            <div class="icons">
+              <img src="img/icon-auto_reporting.png" alt="アイコン">
+              <img src="img/icon-time_management.png" alt="アイコン">
+              <img src="img/icon-alert.png" alt="アイコン">
+            </div>
+            <div class="icons">
+              <img src="img/icon-user_management.png" alt="アイコン">
+              <img src="img/icon-auto_reporting.png" alt="アイコン">
+              <img src="img/icon-smartphone.png" alt="アイコン">
+            </div>
+          </div>
+        </div>
+        <div class="btn">
+            <a href="#">機能について詳しく知る</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section strong">
+      <div class="section_header">
+        <div class="section_title">
+          <h2>Data Maniaの3つの強み</h2>
+        </div>
+      </div>
+      <div class="strong_container">
+        <div class="section_container strong_contents">
+            <div class="strong_img">
+              <img src="img/img-usp-01.jpg" alt="画像">
+            </div>
+            <div class="strong_text">
+              <h3>1. データマーケティングの支援に特化</h3>
+              <h4>データ分析アプリケーションは多数ありますが、データマーケティングに特化したものはData Maniaを置いて他にありません。単なる分析機能・レポーティング機能だけでなく、当社独自調査による過去のマーケティング事例を元に、最適な施策を提案します。</h4>
+            </div>
+        </div>
+        <div class="section_container strong_contents">
+            <div class="strong_img">
+              <img src="img/img-usp-02.jpg" alt="画像">
+            </div>
+            <div class="strong_text">
+              <h3>2. 稼働率99.9%の自社製サーバー</h3>
+              <h4>八王子と松代にそれぞれ設置された自社製のサーバーは99.9%の高稼働率を保証します。それぞれのサーバーは、相互に最適化されたアルゴリズムでデータを同期しており、万が一片方が自然災害やその他の事故で稼働できない状況になっても、サービス自体への影響は全くありません。</h4>
+            </div>
+        </div>
+        <div class="section_container strong_contents">
+            <div class="strong_img">
+              <img src="img/img-usp-03.jpg" alt="画像">
+            </div>
+            <div class="strong_text">
+              <h3>3. 24時間365日対応のサポート体制</h3>
+              <h4>Data Maniaは先進的な機能と洗練されたインターフェースで、マーケターの企画・立案を支援します。一方、こういったツールに不慣れなお客様にも安心してお使いいただけるよう、オペレーターが24時間365日対応可能なサポート体制を構築しています。
+                もしアプリケーションの操作でわからないシーンに遭遇しても安心です。</h4>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section service customer">
+      <div class="section_header">
+        <div class="section_title">
+          <h2>お客様の声</h2>
+        </div>
+      </div>
+      <div class="service_container">
+        <div class="section_container customer_container">
+          <div class="customer_contents">
+            <div class="customer_content">
+              <img src="img/photo-mr_okochi.jpg" alt="画像">
+              <div class="names">
+                <h4 class="company">株式会社グローバルマーケティングジャパン
+                </h4>
+                <h4 class="name">ダイレクトソリューション2部　大河内様</h4>
+              </div>
+              <div class="customer_text">
+                <h4>Data Maniaを導入する前は、全てのデータひとつひとつ集め、それを分析し、レポートするまでを全て手作業で行っていました。
+                </h4>
+                <h4>この工程で膨大な時間を使ってしまい、肝心のマーケティング施策を考える時間がどんどん削られていましたが、Data Mania導入後はそういった作業を一切しなくて済むようになりました。
+                </h4>
+                <h4>これからもきっと我が社には欠かせないツールであり続けると確信しています。</h4>
+              </div>
+            </div>
+            <div class="customer_content">
+              <img src="img/photo-mr_nakajima.jpg" alt="画像">
+              <div class="names">
+                <h4 class="name">株式会社山月堂　中島様</h4>
+              </div>
+              <div class="customer_text">
+                <h4>安い！速い！すごい！見事に私の求める要素三拍
+                  子が揃ったツールです。
+                </h4>
+                <h4>Data Maniaを使い始めてからは毎日定時で上が
+                  れるようになりました！
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="customer_contents">
+            <div class="customer_content">
+              <img src="img/photo-ms_kagari.jpg" alt="画像">
+              <div class="names">
+                <h4 class="company">株式会社キャトルミューティレーション
+                </h4>
+                <h4 class="name">アカウントセールス事業部　篝様</h4>
+              </div>
+              <div class="customer_text">
+                <h4>全てのデータがひとつに集約されるので、煩わしいデータの整理をする必要が一切ありません。トライアル期間に申し込んだのですが、使い始めて30分でまさに当社が求めていたツールだと確信しました。</h4>
+              </div>
+            </div>
+            <div class="customer_content">
+              <img src="img/photo-mr_davis.jpg" alt="画像">
+              <div class="names">
+                <h4 class="company">株式会社Greeeeed
+                </h4>
+                <h4 class="name">コンサルティングチーム　Mike Davis様</h4>
+              </div>
+              <div class="customer_text">
+                <h4>以前他のツールを使っていた時は、自分たちの使
+                  いやすい形にデータを整形するなど、結局手作業
+                  が発生してしまうケースが多かったのですが、
+                  Data Maniaは日々レポートのテンプレートが追
+                  加されているので、「こういう形でデータがみた
+                  い」というニーズに必ずマッチします。</h4>
+                <h4>もうこれなしの頃には戻れません。</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+<!--フォーム-->
+    <section class="section  form_section">
+      <div class="section_header">
+        <div class="section_title">
+          <h2>お問い合わせ</h2>
+        </div>
+      </div>
+      <form action="#" method="POST" id="form">
+        <div class="form_container">
+          <div class="form_box">
+            <h4>お名前</h4>
+            <input type="text" name="name" autocomplete="on">
+          </div>
+          <div class="form_box">
+            <h4>メールアドレス</h4>
+            <input type="text" name="mail" autocomplete="on">
+          </div>
+          <div class="form_box">
+            <h4>お問い合わせ種別</h4>
+            <select name="list" id="list">
+              <option value="選択肢1">選択肢1</option>
+              <option value="選択肢2">選択肢2</option>
+              <option value="選択肢3">選択肢3</option>
+              <option value="選択肢4">選択肢4</option>
+              <option value="選択肢5">選択肢5</option>
+            </select>
+          </div>
+          <div class="form_box">
+            <h4>お問い合わせ内容</h4>
+            <textarea  name="ex" ></textarea>
+          </div>
+        </div>
+        <div class=" btn submit">
+          <a href="#">送信</a>
+        </div>
+      </form>
+    </section>  
+<!--フォーム-->
+  </main>
+  <footer>
+    <div class="footer_container">
+      <div class="footer_menu">
+        <div class="footer_title-box">
+          <p class="footer_title">企業情報</p>
+        </div>
+        <div class="footer_text">
+          <ul>
+            <li><a href="#"><p>会社概要</p></a></li>
+            <li><a href="#"><p>ミッション</p></a></li>
+            <li><a href="#"><p>メッセージ</p></a></li>
+            <li><a href="#"><p>アクセス</p></a></li>
+            <li><a href="#"><p>採用情報</p></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_menu">
+        <div class="footer_title-box">
+          <p class="footer_title">製品について</p>
+        </div>
+        <div class="footer_text">
+          <ul>
+            <li><a href="#"><p>Data Mania v3</p></a></li>
+            <li><a href="#"><p>Artemis Score</p></a></li>
+            <li><a href="#"><p>Aegis Engine</p></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_menu">
+        <div class="footer_title-box">
+          <p class="footer_title">メディア情報</p>
+        </div>
+        <div class="footer_text">
+          <ul>
+            <li><a href="#"><p>掲載情報</p></a></li>
+            <li><a href="#"><p>取材のお申込み</p></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_menu">
+        <div class="footer_title-box">
+          <p class="footer_title">サポート</p>
+        </div>
+        <div class="footer_text">
+          <ul>
+            <li><a href="#"><p>よくあるご質問</p></a></li>
+            <li><a href="#"><p>サービス稼働状況</p></a></li>
+            <li><a href="#"><p>お問い合わせ</p></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_menu">
+        <div class="footer_title-box">
+          <p class="footer_title">サイトについて</p>
+        </div>
+        <div class="footer_text">
+          <ul>
+            <li><a href="#"><p>利用規約</p></a></li>
+            <li><a href="#"><p>プライバシーポリシー</p></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery.js"></script>
+</body>
+</html>
