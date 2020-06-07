@@ -1,0 +1,62 @@
+@charset "utf-8";
+$siteColor:#6CC6C4;
+$green: #aec24c;
+$textColor: #515151;
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  word-break: break-all;
+}
+h2{ font-size: 26px; font-weight: normal; color: $textColor;}
+h3{ font-size: 14px; color: $textColor;}
+h4{ font-size: 13px; color: $textColor;}
+p{ font-size: 10px; color: $textColor;}
+body {
+  margin: 0 auto;
+  text-align: center;
+  background: #F6F6F6;
+  color: #515151;
+  font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+  ul , li{list-style: none;}
+
+  .director{
+    display: flex;
+    margin-top: 15px;
+    .director_img{
+      margin-right: 20px;
+      img{
+        margin-bottom: 17px;
+      }
+      p{
+        background-color: $siteColor;
+        color: #fff;
+        font-size: 13px;
+        text-align: center;
+        padding: 5px 55px;
+      }
+    }
+    .service_text_container{
+      padding-bottom: 0;
+      .director_midashi{
+        p{
+          color: $siteColor;
+          font-size: 15px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .director_text{
+    margin-top: 25px;
+    .pb{
+      padding-bottom: 15px;
+    }
+  }
+  .service_text_container{
+    margin-top: 15px;
+    
+    .service_text{
+      padding-top: 20px;
+    }
+  }
+}
