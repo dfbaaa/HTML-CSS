@@ -35,22 +35,41 @@ body {
     margin: 0 auto;
     .container{
       margin: 0 140px;
+      @media (max-width: 1195px){
+        margin: 0 0;
+      }
       .header_top{
         display: flex;
         justify-content: space-between;
+        @media (max-width: 1195px){ 
+          display: block;
+        }
         .header_left{
           margin-top: 50px;
           margin-bottom: 33px;
+          @media (max-width: 1195px){
+            margin-top: 0;
+            margin-bottom: 0;
+          }
         }
         .header_right{
           padding-top: 13px;
+          @media (max-width: 1195px){
+            padding-top: 0;
+          }
           .catch_copy{
             margin-bottom: 22px;
+            @media (max-width: 1195px){
+              margin-bottom: 15px;
+            }
           }
           .header_tel{
             display: flex;
             justify-content: space-between;
             margin-bottom: 8px;
+            @media (max-width: 1195px){
+              justify-content: center;
+            }
             img{
               margin-right: 10px;
             }
@@ -58,6 +77,11 @@ body {
           .time{
             border: 1px solid #D6D6D6;
             padding: 9px 5px 9px 5px;
+            @media (max-width: 1195px){
+              padding: 9px 0;
+              max-width: 220px;
+              margin: 0 auto;
+            }
             span{
               color: #b22c00;
             }
@@ -66,6 +90,9 @@ body {
       }
       .header_nav{
         margin-bottom: 20px;
+        @media (max-width: 1195px){
+          margin-top: 10px;
+        }
         .nav {
           border: 1px solid $siteColor;
           border-radius: 5px;
@@ -74,6 +101,11 @@ body {
           /*border-right: 1px solid $siteColor;*/
           /* 子要素の幅の均等化 */
           table-layout: fixed;
+          @media (max-width: 1195px){
+            border: none;
+            display: flex;
+            flex-wrap: wrap;
+          }
           a {
             color: #ffffff;
             display: block;
@@ -84,6 +116,11 @@ body {
             font-size: 14px;
             padding: 20px 0;
             @include gradationColor;
+            @media (max-width: 1195px){
+              border-radius: 5px;
+              display: block;
+              width: 50%;
+            }
             &:hover{
               background-image: linear-gradient(rgb(108,198,196) 100%,rgb(156,227,225) 0%);
             }
@@ -136,7 +173,15 @@ body {
       .main_container{
         display: flex;
         justify-content: space-between;
+        @media (max-width: 1195px){
+          flex-wrap: wrap;
+        }
         #menu{
+          @media (max-width: 1195px){
+            margin: 40px 10px 0 10px;
+            order: 2;
+            width: 100%;
+          }
           .sub_menu{
             border: 1px solid $siteColor;
             border-radius: 5px 5px 0 0;
@@ -153,12 +198,16 @@ body {
             .sub_menu-list{
               background-color: #fff;
               padding-bottom: 20px;
+              width: 100%;
               li{
                 display: flex;
                 border-bottom: 1px solid $siteColor;
                 margin-left: 10px;
                 margin-right: 10px;
                 max-width: 260px;
+                @media (max-width: 1195px){
+                  max-width: 100%;
+                }
                 img{
                   height: 10px;
                   width: 10px;
@@ -188,8 +237,16 @@ body {
         #main{
           max-width: 640px;
           width: 100%;
+          @media (max-width: 1195px){
+            order: 1;
+            max-width: 100%;
+            margin: 0 10px;
+          }
           .main_img{
             margin-bottom: 5px;
+            @media (max-width: 1195px){
+              text-align: left;
+            }
           }
           .news{
             background-color: #fff;
@@ -265,8 +322,18 @@ body {
         border-bottom: 2px solid $siteColor;
         text-align: right;
         padding: 20px 0;
+        @media (max-width: 1195px){
+          padding-bottom: 0;
+        }
         h4{
+          display: inline;
           font-weight: normal;
+          @media (max-width: 1195px){
+            display: block;
+            &:nth-of-type(n+2){
+              margin-top: 10px;
+            }
+          }
         }
       }
       .copyright{
