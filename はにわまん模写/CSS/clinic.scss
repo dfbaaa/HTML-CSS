@@ -26,6 +26,10 @@ body {
     text-align: left;
     max-width: 640px;
     width: 100%;
+    @media (max-width: 1195px){
+      max-width: 100%;
+      margin: 0  10px;
+    }
     .main_title{
       @include gradationColor;
       background-color: #000;
